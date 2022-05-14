@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>345086861007-s6c4g9qjj0fhk68fc8sds7ir3bgumf6b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.345086861007-s6c4g9qjj0fhk68fc8sds7ir3bgumf6b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCvznB1qRm3oOBVKMwfZEZbW9Pf_3D9Uo8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>345086861007</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.dropboxiotFlutter</string>
+	<key>PROJECT_ID</key>
+	<string>dropbox-iot-firebase</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dropbox-iot-firebase.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:345086861007:ios:a3caa093f705ee242e21ba</string>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "345086861007",
+    "project_id": "dropbox-iot-firebase",
+    "storage_bucket": "dropbox-iot-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345086861007:android:44139cdf225416fc2e21ba",
+        "android_client_info": {
+          "package_name": "com.example.dropboxiot_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345086861007-ctunch4n1m167v7rl3a36j0hekok9osl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAWKdL89m6OHsauulYs4Ly3LXZUbKLYVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345086861007-ctunch4n1m167v7rl3a36j0hekok9osl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "345086861007-s6c4g9qjj0fhk68fc8sds7ir3bgumf6b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.dropboxiotFlutter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
