@@ -1,57 +1,66 @@
-class RecentGate {
-  final String? icon, title, borrow, derivered, remain;
+// ignore_for_file: non_constant_identifier_names
 
-  RecentGate({this.icon, this.title, this.borrow, this.derivered, this.remain});
+class RecentGate {
+  final String? Ricon, Rgatename, Rborrow, Rderivered, Rremain;
+
+  RecentGate(
+      {this.Ricon,
+      this.Rgatename,
+      this.Rborrow,
+      this.Rderivered,
+      this.Rremain});
 }
 
 List demoRecentGate = [
   RecentGate(
-    icon: "assets/images/door_pink.png",
-    title: "IE Gate",
-    borrow: "82",
-    derivered: "35",
-    remain: "32",
+    Ricon: "assets/images/door_pink.png",
+    Rgatename: "IE Gate",
+    Rborrow: "82",
+    Rderivered: "35",
+    Rremain: "32",
   ),
   RecentGate(
-    icon: "assets/images/door_darkpink.png",
-    title: "EE Gate",
-    borrow: "46",
-    derivered: "42",
-    remain: "32",
+    Ricon: "assets/images/door_darkpink.png",
+    Rgatename: "EE Gate",
+    Rborrow: "46",
+    Rderivered: "42",
+    Rremain: "32",
   ),
+  /*
   RecentGate(
     icon: "assets/images/door_orange.png",
-    title: "CE Gate",
+     gatename: "CE Gate",
     borrow: "98",
     derivered: "32",
     remain: "32",
   ),
   RecentGate(
     icon: "assets/images/light_orange.png",
-    title: "CE Gate",
+     gatename: "CE Gate",
     borrow: "65",
     derivered: "35",
     remain: "32",
   ),
   RecentGate(
     icon: "assets/images/door_yellow2.png",
-    title: "ME Gate",
+     gatename: "ME Gate",
     borrow: "32",
     derivered: "25",
     remain: "32",
   ),
   RecentGate(
     icon: "assets/images/door_greenblue.png",
-    title: "CHE Fate",
+     gatename: "CHE Fate",
     borrow: "120",
     derivered: "52",
     remain: "32",
   ),
   RecentGate(
     icon: "assets/images/door_blue.png",
-    title: "ECE Gate",
+     gatename: "ECE Gate",
     borrow: "67",
     derivered: "32",
     remain: "31",
   ),
+  */
 ];

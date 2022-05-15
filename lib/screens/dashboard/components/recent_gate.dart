@@ -65,13 +65,13 @@ DataRow recentFileDataRow(RecentGate fileInfo) {
         Row(
           children: [
             Image.asset(
-              fileInfo.icon!,
+              fileInfo.Ricon!,
               height: 30,
               width: 30,
             ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: defaultPadding),
-              child: Text(fileInfo.title!),
+              child: Text(fileInfo.Rgatename!),
             ),
           ],
         ),
@@ -81,7 +81,7 @@ DataRow recentFileDataRow(RecentGate fileInfo) {
           children: [
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: defaultPadding),
-              child: Text(fileInfo.borrow!),
+              child: Text(fileInfo.Rborrow!),
             )
           ],
         ),
@@ -91,7 +91,7 @@ DataRow recentFileDataRow(RecentGate fileInfo) {
           children: [
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20),
-              child: Text(fileInfo.derivered!),
+              child: Text(fileInfo.Rderivered!),
             )
           ],
         ),
@@ -101,7 +101,7 @@ DataRow recentFileDataRow(RecentGate fileInfo) {
           children: [
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: defaultPadding),
-              child: Text(fileInfo.remain!),
+              child: Text(fileInfo.Rremain!),
             )
           ],
         ),

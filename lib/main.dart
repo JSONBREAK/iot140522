@@ -2,6 +2,7 @@
 
 import 'package:dropboxiot_flutter/models/FirebaseData.dart';
 import 'package:dropboxiot_flutter/screens/main/main_screen.dart';
+import 'package:dropboxiot_flutter/widget/show_list_gate.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -10,6 +11,7 @@ import 'package:provider/provider.dart';
 import 'constants.dart';
 import 'controllers/MenuController.dart';
 import 'login_screen.dart';
+import 'widget/test.dart';
 
 void main() async {
   //WidgetsFlutterBinding.ensureInitialized();
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: FirebaseData(),
+      home: TestProduct(),
       //home: ProviderMain(),
     );
   }
